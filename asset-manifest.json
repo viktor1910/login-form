@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/login-form/static/js/main.d107e383.js",
+    "main.js": "/login-form/static/js/main.1e67a7c0.js",
     "static/js/787.d0fbee60.chunk.js": "/login-form/static/js/787.d0fbee60.chunk.js",
     "static/media/apple-social.svg": "/login-form/static/media/apple-social.34a82b50a7ba8c2b02a60d01a2c6204c.svg",
     "index.html": "/login-form/index.html",
     "static/media/google-social.svg": "/login-form/static/media/google-social.4dfeb0b875449e1093c6c27179a46b85.svg",
     "static/media/facebook-social.svg": "/login-form/static/media/facebook-social.a58c4a6a189bd82c9d6296a2b63ff924.svg",
-    "main.d107e383.js.map": "/login-form/static/js/main.d107e383.js.map",
+    "main.1e67a7c0.js.map": "/login-form/static/js/main.1e67a7c0.js.map",
     "787.d0fbee60.chunk.js.map": "/login-form/static/js/787.d0fbee60.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d107e383.js"
+    "static/js/main.1e67a7c0.js"
   ]
 }
