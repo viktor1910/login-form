@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <style type="text/css">
+        img {
+            line-height: 100%;
+        }
+
+
+        a,
+        blockquote,
+        body,
+        li,
+        p,
+        table,
+        td {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            font-family: ProximaNova, sans-serif;
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.eot);
+            src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.eot?#iefix)format("embedded-opentype"), url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-regular-webfont-webfont.woff) format("woff");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.eot);
+            src: url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.eot?#iefix)format("embedded-opentype"), url(https://cdn.auth0.com/fonts/proxima-nova/proximanova-semibold-webfont-webfont.woff) format("woff");
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        #divider {
+            border-top: 1px solid #bbb;
+        }
+
+        .container {
+            padding: 16px
+        }
+
+        #verify-btn {
+            padding: 12px 40px;
+            background-color: #3DC342;
+            border: none;
+            border-radius: 8px;
+        }
+
+
+        #text-confirm {
+            text-decoration: none;
+            color: white;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+
+
+        @media only screen and (max-width: 480px) {
+            body {
+                width: 100% !important;
+            }
+
+            body {
+                min-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img
+            src="https://raw.githubusercontent.com/viktor1910/login-form/8b32aba13b58088feaaaf9c11a1e6f796c782e46/public/logo.svg" />
+    </div>
+    <hr id="divider" />
+    <div class="container">
+        <p>Hi {{ user.name }},</p>
+
+        <p>Welcome to your new Pulse PQ account!</p>
+
+        <p>We are excited to have you onboard. But first, we need to verify your email
+            address.</p>
+
+        <p>Kindly click the button below to verify your email address and continue the setup process:</p>
+        <center>
+            <button id="verify-btn"><a href="{{ url }}" id="text-confirm">Verify now</a></button>
+        </center>
+        <p>Need more help? Contact our friendly customer support team at support@pulsetcm.sg We're always happy to help.
+        </p>
+
+        <p style="margin-top: 40px;"">Best regards,
+            <br />The Pulse Team
+        </p>
+    </div>
+</body>
+
+</html>
